@@ -24,3 +24,4 @@ alias dip="sudo docker inspect --format '{{ .NetworkSettings.IPAddress }}'"
 # Git
 alias ga="git add ."
 alias gs="git status"
+alias gc="git commit -m"
