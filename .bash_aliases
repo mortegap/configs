@@ -20,7 +20,7 @@ alias ports='sudo lsof -i -P -n | grep LISTEN'
 alias untar='tar -zixvf '
 
 # Docker
-alias dip="sudo docker inspect --format '{{ .NetworkSettings.IPAddress }}'"
+alias dip="docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' "
 
 # Git
 alias ga="git add ."
