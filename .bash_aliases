@@ -22,6 +22,11 @@ alias untar='tar -zixvf '
 # Docker
 alias dip="docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' "
 
+# Kubernetes
+alias k="kubectl"
+alias kg='kubectl get'
+alias ka='kubectl apply -f'
+
 # Git
 alias ga="git add ."
 alias gs="git status"
