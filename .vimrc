@@ -50,3 +50,6 @@ set showmatch
 
 " Use highlighting when doing a search.
 set hlsearch
+
+" Vim uses system clipboard
+set clipboard=unnamed
