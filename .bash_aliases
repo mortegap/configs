@@ -14,6 +14,7 @@ alias eip='curl ipinfo.io/ip'
 alias meminfo='free -m -l -t -h'
 alias dftotal='df -hl --total | grep total'
 alias df='df -hlT --exclude-type=tmpfs --exclude-type=devtmpfs'
+alias du='du -bsh'
 alias ports='sudo lsof -i -P -n | grep LISTEN'
 
 # Tar
