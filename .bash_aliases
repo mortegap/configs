@@ -16,6 +16,8 @@ alias dftotal='df -hl --total | grep total'
 alias df='df -hlT --exclude-type=tmpfs --exclude-type=devtmpfs'
 alias du='du -bsh'
 alias ports='sudo lsof -i -P -n | grep LISTEN'
+alias pbcopy='xsel --input --clipboard'
+alias pbpaste='xsel --output --clipboard'
 
 # Tar
 alias untar='tar -zixvf '
