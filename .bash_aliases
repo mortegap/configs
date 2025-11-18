@@ -8,6 +8,7 @@ alias ls='ls -hF --color=auto'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias gh='history|grep'
+alias oc='opencode'
 
 # Monitoring
 alias eip='curl ipinfo.io/ip'
