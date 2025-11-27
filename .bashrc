@@ -186,3 +186,6 @@ PS1='$debian_chroot\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w $(git_prom
 
 # Opencode default editor
 export EDITOR="code --wait"
+
+# Zoxide
+eval "$(zoxide init bash)"
